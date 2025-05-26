@@ -1,37 +1,27 @@
-# Spring-E-Commerce-Website-to-Sell-Food-Items
-This project is a full-stack food delivery web application named Xwiggy. It is built using Angular 8 for the frontend and Spring Boot for the backend. The backend follows the MVC (Model-View-Controller) design pattern and uses JPA (Java Persistence API) for interacting with a MySQL database.The application allows users to register, browse restaurants and menus, place orders, and track their deliveries. It also includes an admin panel for managing restaurants, menu items, and orders. The project demonstrates a complete integration between a modern frontend framework and a robust Java backend with database connectivity.
+# XwiggyApp
 
-🚀 How to Run the Project
-1. Prerequisites
-Node.js and Angular CLI installed
-Java JDK 8 or above
-MySQL Server
-Maven installed
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
-2. Set Up MySQL Database
-Create a database in MySQL (e.g., xwiggy_db)
-Configure the database connection in application.properties (found in the Spring Boot project):
+## Development server
 
-   spring.datasource.url=jdbc:mysql://localhost:3306/xwiggy_db
-   spring.datasource.username=your_username
-   spring.datasource.password=your_password
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-3. Run the Backend (Spring Boot)
-     1. Open the Spring Boot project in your IDE (e.g., IntelliJ, Eclipse)
-     2.Build the project using Maven
-     3.Run the application (e.g., XwiggyApplication.java)
-     4.Spring Boot will start at http://localhost:8080
-4. Run the Frontend (Angular 8)
-    1.Navigate to the Angular project directory in the terminal
-    2.Install dependencies:
-     npm install
-    3.Start the Angular server:
-     ng serve
-   4.Visit the frontend in your browser at http://localhost:4200
-   
-✅ Now you can:
-Sign up or log in as a user
-Browse restaurants and menus
-Place and track orders
-Manage data through the admin interface
-   
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
